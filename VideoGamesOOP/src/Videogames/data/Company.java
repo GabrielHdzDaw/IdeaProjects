@@ -1,3 +1,5 @@
+package Videogames.data;
+
 public class Company {
     String name;
     int foundationYear;
@@ -26,6 +28,6 @@ public class Company {
 
     @Override
     public String toString(){
-        return "Company name: " + name + " | Foundation year: " + foundationYear;
+        return "Videogames.data.Company name: " + name + " | Foundation year: " + foundationYear;
     }
 }

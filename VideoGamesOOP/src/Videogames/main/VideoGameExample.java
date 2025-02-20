@@ -1,11 +1,14 @@
-//Improve exercise VideoGameList.java from previous document in another source
-//file called VideoGameList2.java. Now, every video game has a Company that created
+package Videogames.main;//Improve exercise VideoGameList.java from previous document in another source
+//file called VideoGameList2.java. Now, every video game has a Videogames.data.Company that created
 //it. For every company, we need to store its name and the foundation year. Associate
 //a company to each video game, so that some video games can share the same company object.
 //Then, modify the main application to specify the company information for every videogame
-//        (besides video game initial data). Make sure that you share the same Company object
+//        (besides video game initial data). Make sure that you share the same Videogames.data.Company object
 //among all the video games belonging to the same company.
 
+
+import Videogames.data.Company;
+import Videogames.data.VideoGame;
 
 import java.util.Scanner;
 
